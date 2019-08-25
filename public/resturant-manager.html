@@ -10,7 +10,9 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-
+<script type="text/javascript">
+var Images = ["/public/images/ivan-stern-LOLSb7m6XkU-unsplash.jpg","/public/images/sam-moqadam-JnAJSWiio64-unsplash.jpg","/public/images/sam-moqadam-YwpyZvIj3-I-unsplash.jpg"]
+</script>
 <body>
 	<div class="container">
 		<div class="row top-30">
@@ -28,7 +30,7 @@
 					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th>Name</th>
+								<th>Resturant</th>
 								<th>Ammount of Reviews</th>
 								<th>See Resturant's Reviews</th>
 								<th>New Review</th>
@@ -41,7 +43,7 @@
 									<td colspan="4">
 										<input placeholder="Enter a name" id="resturant-name" type="text" />
 									</td>
-									<td><button type="submit" class="btn btn-success">Create Resturant</button>
+									<td><button type="submit" id="createButton" class="btn btn-default">Create Resturant</button>
 									</td>
 								</form>
 							</tr>

@@ -41,15 +41,19 @@ button.edit {
 .top-30 {
   margin-top: 30px;
 }
-#newReviewButton{
-  background-color: turquoise!important;
+#newReviewButton {
+  background-color: crimson!important;
   color: white!important;
 }
-#manageResturantsButton{
-  background-color: turquoise!important;
+#manageResturantsButton {
+  background-color: crimson!important;
   color: white!important;
 }
-#goToBlogButton{
-  background-color: turquoise!important;
+#goToBlogButton {
+  background-color: crimson!important;
+  color: white!important;
+}
+#createButton {
+  background-color: crimson!important;
   color: white!important;
 }
