@@ -24,7 +24,7 @@ $(document).ready(function() {
     if (resturantId) {
       resturantId = "/?resturant_id=" + resturantId;
     }
-    $.get("/api/reviews" + resturantId, function(data) {
+    $.get("/api/savings" + resturantId, function(data) {
       console.log("Reviews", data);
       reviews = data;
       if (!reviews || !reviews.length) {
@@ -49,10 +49,11 @@ $(document).ready(function() {
   function initializeRows() {
     blogContainer.empty();
     var reviewsToAdd = [];
-    for (var i = 0; i < posts.length; i++) {
+    for (var i = 0; i < reviews.length; i++) {
       reviewsToAdd.push(createNewRow(reviews[i]));
     }
     blogContainer.append(reviewsToAdd);
+    
   }
 
   function createNewRow(review) {
