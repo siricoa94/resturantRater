@@ -72,7 +72,7 @@ $(document).ready(function() {
     var newReviewTitle = $("<h2>");
     var newReviewDate = $("<small>");
     var newReviewResturant = $("<h5>");
-    newReviewResturant.text("Written by: Resturant name display is in next activity when we learn joins!");
+    newReviewResturant.text("Written by: Anonymous Blogger");
     newReviewResturant.css({
       float: "right",
       color: "blue",
