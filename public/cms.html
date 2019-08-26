@@ -11,7 +11,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="cmsBackround">
 	<div class="container">
 		<div class="row top-30">
       <div class="col-md-2 col-sm-2">
@@ -25,18 +25,18 @@
 			<div class="col-md-6 col-md-offset-3">
 				<form id="cms">
 					<div class="form-group">
-						<label for="title">Title:</label>
+						<label for="title" id="cmsColumnHeaders">Title:</label>
 						<input placeholder="Review Title" type="text" class="form-control" id="title">
 						<br />
-						<label for="body">Body:</label>
+						<label for="body" id="cmsColumnHeaders">Body:</label>
 						<textarea placeholder="Review Body" class="form-control" rows="10" id="body"></textarea>
 						<div class="form-group">
-							<label for="category">Select Resturant:</label>
+							<label for="category" id="cmsColumnHeaders">Select Resturant:</label>
 							<select class="form-control" id="resturant">
   						</select>
 						</div>
 						<br />
-						<button type="submit" class="btn btn-success submit">Submit</button>
+						<button type="submit" class="btn btn-default submit" id="submitButton">Submit</button>
 					</div>
 				</form>
 			</div>

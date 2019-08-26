@@ -64,7 +64,7 @@ button.edit {
 }
 #resturantsHeader{
   position: absolute;
-  top: -25%;
+  top: -10%;
   left: 50%;
   background-color: crimson!important;
   width: 50%!important;
@@ -75,6 +75,27 @@ button.edit {
 #columnHeaders {
   color: white;
 }
-#tableManager{ 
+#cmsBackround {
+  background-image:  url("../images/sam-moqadam-JnAJSWiio64-unsplash.jpg")!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+}
+#submitButton {
+  color: white;
+  background-color: crimson;
+}
+#cmsColumnHeaders {
+  color: white;
+}
+#blogBackround {
+  background-image:  url("../images/sam-moqadam-YwpyZvIj3-I-unsplash.jpg")!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
 
+}
+
+#blogContainer {
+  position: absolute;
+  top: 10%!important;
+  width: 50%;
 }
