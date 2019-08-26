@@ -58,5 +58,23 @@ button.edit {
   color: white!important;
 }
 #resturantManagerBackround{ 
-  background-image:"/public/images/ivan-stern-LOLSb7m6XkU-unsplash.jpg"!important;
+  background-image:  url("../images/ivan-stern-LOLSb7m6XkU-unsplash.jpg")!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+}
+#resturantsHeader{
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  background-color: crimson!important;
+  width: 50%!important;
+  color: white!important;
+  border-radius: 70%;
+  text-align: center!important;
+}
+#columnHeaders {
+  color: white;
+}
+#tableManager{ 
+
 }
