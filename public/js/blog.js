@@ -72,7 +72,7 @@ $(document).ready(function() {
     var newReviewTitle = $("<h2>");
     var newReviewDate = $("<small>");
     var newReviewResturant = $("<h5>");
-    newReviewResturant.text("Written by: Anonymous Blogger");
+    newReviewResturant.text("Written by: Anonymous");
     newReviewResturant.css({
       float: "right",
       color: "blue",
