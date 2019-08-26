@@ -37,7 +37,7 @@ $(document).ready(function() {
     var newTr = $("<tr>");
     newTr.data("resturant", resturantData);
     newTr.append("<td>" + resturantData.name + "</td>");
-    newTr.append("<td># of reviews will display when we learn joins in the next activity!</td>");
+    newTr.append("<td>N/A</td>");
     newTr.append("<td><a href='/blog?resturant_id=" + resturantData.id + "'>Go to Reviews</a></td>");
     newTr.append("<td><a href='/cms?resturant_id=" + resturantData.id + "'>Create a Review</a></td>");
     newTr.append("<td><a style='cursor:pointer;color:red' class='delete-resturant'>Delete Resturant</a></td>");
